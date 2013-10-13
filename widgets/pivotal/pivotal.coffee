@@ -1,0 +1,1 @@
+class Dashing.Pivotal extends Dashing.Widget

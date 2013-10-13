@@ -1,0 +1,46 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  rgb(135, 193, 230);
+ 
+.widget-pivotal {
+ 
+  background-color: $background-color;
+ 
+  font-size: 30px;
+ 
+  .section_title {
+    font-size: 27px;
+  }
+ 
+  .points {
+    font-size: 40px;
+  }
+ 
+  .velocity_row {
+    padding-top: 15px;
+  }
+ 
+  .container {
+    float: left;
+    width: 25%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+ 
+  .unstarted_container {
+    background-color: red;
+  }
+ 
+  .started_container {
+    background-color: #d8c600;
+  }
+ 
+  .finished_container {
+    background-color: green;
+  }
+ 
+  .total_container {
+    background-color: black;
+  }
+}

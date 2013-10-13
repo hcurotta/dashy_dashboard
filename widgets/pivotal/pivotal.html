@@ -1,0 +1,36 @@
+<h1>
+  <span class="title" data-bind="title"></span>
+  <span data-bind="iteration_start"></span> - 
+  <span data-bind="iteration_finish"></span>
+</h1>
+ 
+<div id="pivotal_stories">
+  <div class="stats_row">
+    <div class="finished_container container">
+      <div class="section_title"><span data-bind="finished"></span> Finished</div>
+      <span class="points" data-bind="finished_estimate"></span> pts
+    </div>
+ 
+    <div class="started_container container">
+      <div class="section_title"><span data-bind="started"></span> Started</div>
+      <span class="points" data-bind="started_estimate"></span> pts
+    </div>
+ 
+    <div class="unstarted_container container">
+      <div class="section_title"> <span data-bind="unstarted"></span> Unstarted</div>
+      <span class="points" data-bind="unstarted_estimate"></span> pts
+    </div>
+ 
+    <div class="total_container container">
+      <div class="section_title"><span data-bind="total"></span> Total</div>
+      <span class="points" data-bind="total_estimate"></span> pts
+    </div>
+  </div>
+  <div style="clear:both;"></div>
+ 
+  <div class="velocity_row">
+    <div class="velocity_container">Velocity: <span data-bind="velocity"></span></div>
+  </div>
+ 
+ 
+</div>
